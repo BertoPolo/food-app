@@ -1,4 +1,4 @@
-name: food_app
+name: ask_your_food_app
 description: A new Flutter project.
 
 publish_to: "none" # Remove this line if you wish to publish to pub.dev
@@ -16,12 +16,17 @@ dependencies:
   provider: ^6.0.0
   flutter_localizations:
     sdk: flutter
+  firebase_auth: ^4.18.0
+  cloud_firestore: ^4.15.10
+  equatable: ^2.0.5
+  rxdart: ^0.27.7
+  path: ^1.9.0
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.2
 
 flutter:
   uses-material-design: true

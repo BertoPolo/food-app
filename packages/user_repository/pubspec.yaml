@@ -13,8 +13,8 @@ dependencies:
     sdk: flutter
 
   # equatable: ^2.0.5
-  # firebase_auth: ^4.16.0
-  # cloud_firestore: ^11.6.0
+  firebase_auth: ^4.18.0
+  cloud_firestore: ^4.15.10
   # rxdart: ^0.27.7
   # path: ^1.8.3
 
@@ -22,7 +22,7 @@ dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^2.0.0
+  flutter_lints: ^3.0.2
 
 flutter:
   uses-material-design: true

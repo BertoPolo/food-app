@@ -7,7 +7,7 @@ abstract class UserRepostory {
 
   Future<void> setUserData(MyUser user);
 
-  Future<void> sinIn(String email, String password);
+  Future<void> signIn(String email, String password);
 
   Future<void> logOut();
 }

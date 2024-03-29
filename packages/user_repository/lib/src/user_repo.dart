@@ -1,3 +1,5 @@
+import 'models/models.dart';
+
 abstract class UserRepostory {
   Stream<MyUser?> get user;
 
